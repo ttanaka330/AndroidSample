@@ -17,6 +17,13 @@ object Dep {
         const val viewmodel = "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0"
     }
 
+    object Koin {
+        private const val koinVersion = "3.1.3"
+        const val android = "io.insert-koin:koin-android:$koinVersion"
+        const val compose = "io.insert-koin:koin-androidx-compose:$koinVersion"
+        const val navigation = "io.insert-koin:koin-androidx-navigation:$koinVersion"
+    }
+
     object Test {
         const val junit = "junit:junit:4.13.2"
     }

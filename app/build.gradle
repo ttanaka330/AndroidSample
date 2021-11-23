@@ -33,6 +33,8 @@ dependencies {
     implementation Dep.Jetpack.viewmodel
     implementation Dep.Google.material
 
+    implementation Dep.Koin.android
+
     testImplementation Dep.Test.junit
     androidTestImplementation Dep.AndroidTest.junit
     androidTestImplementation Dep.AndroidTest.espresso
