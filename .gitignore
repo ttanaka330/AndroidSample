@@ -242,5 +242,6 @@ fabric.properties
 
 # End of https://www.toptal.com/developers/gitignore/api/android,androidstudio,macos
 
+.idea/deploymentTargetDropDown.xml
 .idea/dictionaries/**
 !.idea/dictionaries/dic.xml
