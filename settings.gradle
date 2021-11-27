@@ -7,4 +7,11 @@ dependencyResolutionManagement {
 }
 rootProject.name = "AndroidSample"
 include ':app',
-        ':modules:core'
+        ':core',
+        ':usecase',
+        ':repository'
+
+def modules = new File('modules')
+project(':core').projectDir = new File(modules, 'core')
+project(':usecase').projectDir = new File(modules, 'usecase')
+project(':repository').projectDir = new File(modules, 'repository')

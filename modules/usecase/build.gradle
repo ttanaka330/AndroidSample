@@ -1,0 +1,14 @@
+import dependencies.Dep
+
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+}
+apply from: rootProject.file('gradle/android.gradle')
+
+android {}
+
+dependencies {
+    implementation project(":core")
+    implementation Dep.Kotlin.coroutines
+}
