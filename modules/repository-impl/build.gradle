@@ -10,10 +10,9 @@ android {}
 
 dependencies {
     implementation project(":core")
+    implementation project(":repository")
     implementation project(":api-github-rest")
     implementation Dep.Kotlin.coroutines
 
     implementation Dep.Koin.android
-
-    testImplementation Dep.Test.junit
 }

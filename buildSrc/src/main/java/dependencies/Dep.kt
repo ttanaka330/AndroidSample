@@ -26,6 +26,14 @@ object Dep {
         const val navigation = "io.insert-koin:koin-androidx-navigation:$koinVersion"
     }
 
+    object Network {
+        private const val okhttpVersion = "4.9.3"
+        const val okhttp = "com.squareup.okhttp3:okhttp:$okhttpVersion"
+        const val okhttpLogging = "com.squareup.okhttp3:logging-interceptor:$okhttpVersion"
+        const val retrofit = "com.squareup.retrofit2:retrofit:2.9.0"
+        const val retrofitConverter = "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:0.8.0"
+    }
+
     object Test {
         const val junit = "junit:junit:4.13.2"
     }

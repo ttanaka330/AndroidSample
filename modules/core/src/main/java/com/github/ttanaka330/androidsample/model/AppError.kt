@@ -6,7 +6,13 @@ sealed class AppError : RuntimeException {
     constructor(message: String?, cause: Throwable?) : super(message, cause)
     constructor(cause: Throwable?) : super(cause)
 
-    class NetworkException(cause: Throwable?) : AppError(cause)
+    class NetworkException(
+        cause: Throwable? = null,
+        message: String? = null
+    ) : AppError(message, cause)
 
-    class UnknownException(cause: Throwable?) : AppError(cause)
+    class UnknownException(
+        cause: Throwable? = null,
+        message: String? = null
+    ) : AppError(message, cause)
 }
