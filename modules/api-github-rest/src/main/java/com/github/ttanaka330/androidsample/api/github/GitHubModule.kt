@@ -8,7 +8,6 @@ import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import okhttp3.logging.HttpLoggingInterceptor.Level
-import org.koin.android.BuildConfig
 import org.koin.core.module.Module
 import org.koin.dsl.module
 import retrofit2.Converter

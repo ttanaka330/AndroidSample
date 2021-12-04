@@ -1,6 +1,7 @@
 package com.github.ttanaka330.androidsample.repository
 
 import com.github.ttanaka330.androidsample.api.github.GitHubModule
+import com.github.ttanaka330.androidsample.repository.impl.SearchRepositoryImpl
 import kotlinx.coroutines.Dispatchers
 import org.koin.core.module.Module
 import org.koin.dsl.module
