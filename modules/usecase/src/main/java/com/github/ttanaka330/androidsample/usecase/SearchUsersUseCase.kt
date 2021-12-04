@@ -1,5 +1,6 @@
 package com.github.ttanaka330.androidsample.usecase
 
+import com.github.ttanaka330.androidsample.model.DataStatus
 import com.github.ttanaka330.androidsample.model.UserInfo
 import kotlinx.coroutines.flow.Flow
 
@@ -10,5 +11,5 @@ interface SearchUsersUseCase {
      *
      * @param keyword 検索文字列
      */
-    operator fun invoke(keyword: String): Flow<List<UserInfo>>
+    operator fun invoke(keyword: String): Flow<DataStatus<List<UserInfo>>>
 }
