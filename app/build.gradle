@@ -8,7 +8,7 @@ apply from: rootProject.file('gradle/android.gradle')
 
 android {
     defaultConfig {
-        applicationId "com.github.ttanaka330.androidsample"
+        applicationId "com.github.ttanaka330.android.sample"
         versionCode 1
         versionName "1.0"
 
